@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Map Demo</title>
+</head>
+<body>
+    <h2>Clickable Image Map</h2>
+
+    <!-- Image with usemap -->
+    <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Flowers" usemap="#flowermap" width="400">
+
+    <!-- Define the map -->
+    <map name="flowermap">
+        <!-- Rectangle area -->
+        <area shape="rect" coords="34,44,270,350" href="https://www.google.com" alt="Google">
+
+        <!-- Circle area -->
+        <area shape="circle" coords="337,300,44" href="https://www.microsoft.com" alt="Microsoft">
+
+        <!-- Polygon area -->
+        <area shape="poly" coords="290,172,333,250,300,300" href="https://www.amazon.com" alt="Amazon">
+    </map>
+</body>
+</html>
